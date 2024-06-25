@@ -1,0 +1,21 @@
+# The name of your plugin as displayed in the Traefik Pilot web UI.
+displayName: Return Client IP
+
+# For now, `middleware` is the only type available.
+type: middleware
+
+# The import path of your plugin.
+import: github.com/moonlightwatch/ReturnClientIP
+
+# A brief description of what your plugin is doing.
+summary: Return the client IP address.
+
+# Medias associated to the plugin (optional)
+# iconPath: foo/icon.png
+# bannerPath: foo/banner.png
+
+# Configuration data for your plugin.
+# This is mandatory,
+# and Traefik Pilot will try to execute the plugin with the data you provide as part of its startup validity tests.
+testData:
+  Active: true
